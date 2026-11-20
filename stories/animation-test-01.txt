@@ -1,0 +1,38 @@
+title: Animation Test - Une journée à Paris
+scene: apartment
+
+[story]
+@scene apartment
+> Marinette enters left
+& Adrien enters right
+> Marinette looks worried
+> Marinette phones for 6
+Marinette: Allô ? Oui, c'est moi. | Hello? Yes, it's me.
+> Adrien looks curious
+> Adrien thinks
+Adrien: C'est qui ? | Who is it?
+> Marinette covers her mouth
+> Marinette looks surprised
+Marinette: Vraiment ? D'accord ! | Really? OK!
+> Marinette looks thrilled
+> Marinette cheers
+> Adrien shrugs
+> Adrien laughs
+Adrien: Ha ha, super ! | Ha ha, great!
+@scene stall
+> Pierre enters right
+Pierre: Bonjour ! Des crêpes ? | Hello! Crêpes?
+> Adrien looks excited
+Adrien: Deux crêpes, s'il vous plaît. | Two crêpes, please.
+> Pierre shows
+> Marinette puts hands on her hips
+Marinette: C'est trop cher ! | It's too expensive!
+> Pierre looks smirking
+> Adrien points right
+> Pierre exits right
+> Bernard enters right
+> Bernard holds a broom
+Adrien: Voilà Monsieur Bernard ! | There's Mr. Bernard!
+Bernard: Bonjour, les jeunes ! | Hello, young ones!
+> Marinette bows
+Marinette: Bonjour, Monsieur ! | Hello, sir!
