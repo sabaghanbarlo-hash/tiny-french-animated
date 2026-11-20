@@ -519,9 +519,9 @@ def _sushi(d, rng):
     L.window(d, 90, 150, 360, 300)
     d.ellipse((1640, 130, 1780, 270), fill=(255, 255, 252), outline=(110, 90, 80), width=8)
     d.line([(1710, 200), (1710, 150)], fill=(70, 60, 60), width=6); d.line([(1710, 200), (1744, 214)], fill=(70, 60, 60), width=6)
-    for k, (x, label) in enumerate(((560, "さけ"), (760, "まぐろ"), (960, "えび"), (1160, "たまご"), (1360, "うなぎ"))):
+    for k, (x, label) in enumerate(((560, "Saumon"), (760, "Thon"), (960, "Crevette"), (1160, "Oeuf"), (1360, "Anguille"))):
         d.rectangle((x - 70, 150, x + 70, 330), fill=(255, 250, 238), outline=(150, 108, 76), width=5)
-        d.text((x, 240), label, font=L.font(44), fill=(120, 60, 50), anchor="mm")
+        d.text((x, 240), label, font=L.font(28), fill=(120, 60, 50), anchor="mm")
         d.ellipse((x - 34, 160, x + 34, 200), fill=[(244, 140, 120), (214, 70, 80), (250, 170, 120), (250, 214, 100), (140, 100, 80)][k])
     d.rounded_rectangle((120, 566, 1800, 596), radius=10, fill=(176, 182, 196), outline=(130, 136, 150), width=4)      # belt rail
     d.rectangle((100, 596, 1820, 644), fill=(190, 140, 100)); d.rectangle((100, 644, 1820, 780), fill=(130, 90, 64))
