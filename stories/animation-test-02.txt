@@ -1,0 +1,19 @@
+title: Animation Test 2 - De dos
+scene: apartment
+
+[story]
+@scene apartment
+> Marinette enters left
+& Adrien enters right
+> Marinette faces away
+Adrien: Marinette, ça va ? | Marinette, are you okay?
+Marinette: Oui, oui... ça va. | Yes, yes... I'm fine.
+> Adrien looks worried
+> Adrien shrugs
+Adrien: Vraiment ? | Really?
+> Marinette turns around
+> Marinette looks worried
+Marinette: En fait, j'ai un peu peur. | Actually, I'm a little scared.
+> Adrien looks smirking
+Adrien: Tu vas y arriver ! | You can do it!
+> Marinette looks happy
