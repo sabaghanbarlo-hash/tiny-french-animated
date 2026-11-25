@@ -114,3 +114,21 @@ Zoom levels are deliberately gentle: medium = 1.15x, close = 1.4x. Change `CAM_Z
 ```
 
 Characters keep speaking while turned away. Facial expressions are not visible from behind.
+
+## Actions (story mode v3b): clothes, cooking, eating
+
+These show the audience what is happening instead of only talking about it. Each lasts a few seconds (add `for N` to change that) and carries on while the next line is spoken; add `> wait N` if nothing is spoken meanwhile.
+
+```
+> Marinette changes into a blue sweater    # also: puts on / tries on / wears. A puff of smoke hides the change.
+> Marinette chops carrots                  # counter, knife, the carrot gets shorter and slices pile up (onion, tomato, cucumber, potato)
+> Adrien stirs the curry                # pot on a stove, spoon, steam (soup, stew, miso, porridge)
+> Marinette fries an egg                   # pan with a sizzling egg that gets flipped
+> Adrien eats ramen                     # plated: ramen, curry, rice, sushi, cake - chopsticks / spoon / fork go to the mouth, the food goes down
+> Marinette eats an onigiri                # hand-held: onigiri, crepe, croissant, sandwich, apple (also cotton candy, ice cream, popcorn) - 3 bites
+> Adrien holds a mug                    # then:
+> Adrien drinks                         # the cup really goes to the mouth (tea, coffee, hot chocolate)
+```
+
+Garments: sweater, jacket, coat, dress, hoodie, kimono, shirt, scarf. Colours: red, blue, green, yellow, pink, purple, orange, white, black, brown, grey, navy, beige. The outfit stays until the next change.
+
